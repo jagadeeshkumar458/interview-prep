@@ -1,0 +1,1002 @@
+{
+ "v": 1,
+ "about": "Every link shared for fetching questions, when it was added, and what was taken from it. Check new links against url/urls here before fetching.",
+ "sources": [
+  {
+   "key": "ib",
+   "name": "InterviewBit - React interview questions",
+   "url": "https://www.interviewbit.com/react-interview-questions/",
+   "added": "2026-10-19",
+   "batch": 1,
+   "covered": "All question headings in the Freshers, Experienced, Architecture and Modern Patterns sections.",
+   "skipped": "The fill-in-the-blank MCQ quiz at the end."
+  },
+  {
+   "key": "gfg",
+   "name": "GeeksforGeeks - React interview questions",
+   "url": "https://www.geeksforgeeks.org/reactjs/react-interview-questions/",
+   "added": "2026-10-19",
+   "batch": 1,
+   "covered": "All 169 questions (Basic, Intermediate, Advanced).",
+   "skipped": ""
+  },
+  {
+   "key": "gfe",
+   "name": "GreatFrontEnd blog - 100+ React questions",
+   "url": "https://www.greatfrontend.com/blog/100-react-interview-questions-straight-from-ex-interviewers",
+   "added": "2026-10-19",
+   "batch": 1,
+   "covered": "All 170 questions, including the React Native section.",
+   "skipped": ""
+  },
+  {
+   "key": "sj",
+   "name": "sudheerj/reactjs-interview-questions (GitHub)",
+   "url": "https://github.com/sudheerj/reactjs-interview-questions",
+   "added": "2026-10-19",
+   "batch": 1,
+   "covered": "All current questions in every section, including React 18/19.",
+   "skipped": "The 'Old Q&A' archive section."
+  },
+  {
+   "key": "bfe",
+   "name": "BFE.dev (bigfrontend.dev)",
+   "url": "https://bigfrontend.dev/",
+   "added": "2026-10-19",
+   "batch": 2,
+   "covered": "JavaScript coding problems, JavaScript quizzes (predict the output), React coding problems, React quizzes, TypeScript type challenges, CSS problems and system design questions. Titles only; no problem text or solutions copied.",
+   "skipped": "Paid-only content."
+  },
+  {
+   "key": "gfeq",
+   "name": "GreatFrontEnd - question bank",
+   "url": "https://www.greatfrontend.com/questions",
+   "added": "2026-10-19",
+   "batch": 2,
+   "covered": "JavaScript coding, UI coding and algorithm question titles, the quiz (trivia) questions and front-end system design topics.",
+   "skipped": "Angular, Vue and Svelte variants. Problem descriptions and solutions are not copied."
+  },
+  {
+   "key": "feih",
+   "name": "Front End Interview Handbook",
+   "url": "https://www.frontendinterviewhandbook.com/",
+   "added": "2026-10-19",
+   "batch": 2,
+   "covered": "JavaScript, HTML and CSS trivia questions (from the handbook's open-source repository).",
+   "skipped": "Guide and career articles (not questions)."
+  },
+  {
+   "key": "h5bp",
+   "name": "h5bp Front-end Developer Interview Questions",
+   "url": "https://h5bp.org/Front-end-Developer-Interview-Questions/",
+   "added": "2026-10-19",
+   "batch": 2,
+   "covered": "General, HTML, CSS, JavaScript, testing, performance, network, coding and fun questions. Follow-up bullets are joined to their parent question.",
+   "skipped": ""
+  },
+  {
+   "key": "gfeqr",
+   "name": "GreatFrontEnd - React interview questions (coding + quiz)",
+   "url": "https://www.greatfrontend.com/questions/react-interview-questions",
+   "added": "2026-10-19",
+   "batch": 3,
+   "covered": "The React coding list and the React quiz list (https://www.greatfrontend.com/questions/react-interview-questions/quiz). Nearly all were already in the bank from GreatFrontEnd's main question bank, so they were merged and tagged; 10 example questions from the quiz page were added or merged.",
+   "skipped": "Problem text and answers (not copied).",
+   "urls": [
+    "https://www.greatfrontend.com/questions/react-interview-questions/quiz"
+   ]
+  },
+  {
+   "key": "gfepb",
+   "name": "GreatFrontEnd - React Interview Playbook",
+   "url": "https://www.greatfrontend.com/react-interview-playbook",
+   "added": "2026-10-19",
+   "batch": 3,
+   "covered": "The playbook is a guide, not a question list. Its chapter topics (thinking declaratively, state design, hooks, events, forms, data fetching, design patterns, React landscape) were turned into 9 interview questions written for this desk.",
+   "skipped": "The guide text itself (not copied)."
+  },
+  {
+   "key": "ipd",
+   "name": "Written for this desk by Claude",
+   "url": "",
+   "added": "2026-10-19",
+   "batch": 2,
+   "covered": "Scenario questions across JavaScript, React, HTML, CSS, TypeScript and the web platform, plus all playground challenges (fill the blanks, write the code with tests, guess the output).",
+   "skipped": ""
+  },
+  {
+   "key": "cod1",
+   "name": "codinn.dev - Tricky JavaScript / ES6+ code snippets",
+   "url": "https://www.codinn.dev/tricky-javascript/es6789-code-snippets-interview-questions",
+   "added": "2026-10-19",
+   "batch": 4,
+   "covered": "All output puzzles and coding tasks. Output puzzles keep their short code snippet so you can predict the result; answers are written for this desk.",
+   "skipped": "The site's own answers (not copied)."
+  },
+  {
+   "key": "cod2",
+   "name": "codinn.dev - ReactJS interview questions",
+   "url": "https://www.codinn.dev/reactjs/reactjs-interview-question",
+   "added": "2026-10-19",
+   "batch": 4,
+   "covered": "All questions, including the output and scenario-based tasks (described in our words). Questions already in the bank were tagged instead of repeated.",
+   "skipped": "The site's own answers and full code listings (not copied); the \"If React was a food\" fun question."
+  },
+  {
+   "key": "li",
+   "name": "Your LinkedIn saved posts (all 536)",
+   "url": "https://www.linkedin.com/my-items/saved-posts/",
+   "added": "2026-10-19",
+   "batch": 3,
+   "covered": "Every question written in the text of your saved posts, filed by concept, each linked back to its post. Where the author answered, the answer shows a detailed summary of their answer, marked as theirs.",
+   "skipped": "Questions that exist only inside attached PDFs, carousels or images (LinkedIn does not expose their text), plus job lists, course lists and resume tips.",
+   "docs": [
+    {
+     "id": "7498972975971491840",
+     "au": "Kaushal Singh",
+     "title": "attached document: 140 JavaScript Interview Questions & Answers"
+    },
+    {
+     "id": "7492504345570209792",
+     "au": "Amit Raj",
+     "title": "attached document: ASP .NET 100 Question Answer Set"
+    },
+    {
+     "id": "7482740361967284224",
+     "au": "Amit Raj",
+     "title": "attached document: .NET Interview Preparation PDF"
+    },
+    {
+     "id": "7479101911401463809",
+     "au": "sachin Sangwan",
+     "title": "attached document: TCS Frontend Developer (ReactJS) interview questions"
+    },
+    {
+     "id": "7472650438513696768",
+     "au": "Abhay Tiwari",
+     "title": "attached document: 146+ React Interview Questions & Answers"
+    },
+    {
+     "id": "7471496832796237824",
+     "au": "",
+     "title": "attached image: 30 JavaScript topics"
+    },
+    {
+     "id": "7470315663505403905",
+     "au": "Riya D.",
+     "title": "attached document: SQL interview PDF"
+    },
+    {
+     "id": "7462856515352449024",
+     "au": "Vedanti Gawade",
+     "title": "attached images: 20 JavaScript coding questions"
+    },
+    {
+     "id": "7464579109915004929",
+     "au": "Prashant Kumar Singh",
+     "title": "attached document: Frontend Interview Masterbook"
+    },
+    {
+     "id": "7452003284934107136",
+     "au": "Abhay Tiwari",
+     "title": "attached document: JavaScript Quick Revision notes"
+    },
+    {
+     "id": "7461637884362563584",
+     "au": "ABDUL REHMAN",
+     "title": "attached document: Debouncing in JavaScript"
+    },
+    {
+     "id": "7461241515189698560",
+     "au": "Mitali Jadhavrao",
+     "title": "attached document: 50 JavaScript Interview Questions & Answers"
+    },
+    {
+     "id": "7459853348217790464",
+     "au": "",
+     "title": "attached document: Advanced Frontend Interview Questions"
+    },
+    {
+     "id": "7450372084385366016",
+     "au": "",
+     "title": "attached document: 100 Must-Know Interview Questions JavaScript & React"
+    },
+    {
+     "id": "7454012646024040448",
+     "au": "Kamal Sharma",
+     "title": "attached document: JS Questions"
+    },
+    {
+     "id": "7458311169401860096",
+     "au": "Shivam Dhyani",
+     "title": "attached document: Ultimate Frontend Interview Questions List"
+    },
+    {
+     "id": "7456874501260341249",
+     "au": "Shivam Dhyani",
+     "title": "attached document: 14 Redux Interview Questions"
+    },
+    {
+     "id": "7454510937694388224",
+     "au": "Avi Takiyar",
+     "title": "output question shown as an image"
+    },
+    {
+     "id": "7445670919487963136",
+     "au": "Kenil Gondaliya",
+     "title": "attached document: JavaScript Interview Questions PDF"
+    },
+    {
+     "id": "7444560140005027840",
+     "au": "Kaushal Singh",
+     "title": "attached document: 200 React + Redux Q&A"
+    },
+    {
+     "id": "7411274351833960448",
+     "au": "Anurag Shukla",
+     "title": "attached document: Frontend Interview Questions 2026"
+    },
+    {
+     "id": "7399376874394615808",
+     "au": "Kenil Gondaliya",
+     "title": "attached document: Top 100+ JavaScript Interview Questions"
+    },
+    {
+     "id": "7388174353315586048",
+     "au": "Neeraj Maurya",
+     "title": "attached document: JavaScript important questions and answers"
+    },
+    {
+     "id": "7382037974051344388",
+     "au": "Neeraj Kumar",
+     "title": "attached document: array methods & modern operators"
+    },
+    {
+     "id": "7382382844481839105",
+     "au": "Neeraj Kumar",
+     "title": "attached document: object methods cheat sheet"
+    },
+    {
+     "id": "7385526964159369216",
+     "au": "Neeraj Kumar",
+     "title": "attached document: Promises guide"
+    },
+    {
+     "id": "7382108258402021376",
+     "au": "Nageena",
+     "title": "attached document: 100+ React problems"
+    },
+    {
+     "id": "7380459157117689856",
+     "au": "",
+     "title": "attached document: React interview questions"
+    },
+    {
+     "id": "7363559542011383808",
+     "au": "",
+     "title": "attached document: .NET Full Stack interview questions"
+    },
+    {
+     "id": "7378632216849014784",
+     "au": "Shubham Maurya",
+     "title": "attached document: Frontend Interview Question 2025"
+    },
+    {
+     "id": "7376210323084787712",
+     "au": "Gundlapudi Sreelekha",
+     "title": "attached document: Debouncing and Throttling"
+    },
+    {
+     "id": "7378095066860429312",
+     "au": "Med Reda KAMAL",
+     "title": "attached document: WebSockets with Node.js"
+    },
+    {
+     "id": "7376453330983833600",
+     "au": "Swadesh Kumar",
+     "title": "attached document: System Design notes"
+    },
+    {
+     "id": "7372214909675360256",
+     "au": "Supriya Darisa",
+     "title": "attached document: React Interview Questions"
+    },
+    {
+     "id": "7371749127442927617",
+     "au": "Anurag Shukla",
+     "title": "attached document: React.js Interview Questions"
+    },
+    {
+     "id": "7365002275481702402",
+     "au": "Suraj Shah",
+     "title": "attached document: .NET Interview Handbook"
+    },
+    {
+     "id": "7358747216758366208",
+     "au": "Manoj G",
+     "title": "attached document: Top 100 advanced React questions"
+    },
+    {
+     "id": "7359410890749698048",
+     "au": "Shubham Baghel",
+     "title": "attached document: React cheat sheet"
+    },
+    {
+     "id": "7356365047062773761",
+     "au": "Med Reda KAMAL",
+     "title": "attached document: Frontend challenge — tables"
+    },
+    {
+     "id": "7355439504020688896",
+     "au": "Vishakha Singhal",
+     "title": "attached document: DSA questions for MAANG"
+    },
+    {
+     "id": "7354478453171097600",
+     "au": "Kenil Gondaliya",
+     "title": "attached document: React 2025 cheatsheet"
+    },
+    {
+     "id": "7352046640083390464",
+     "au": "Sachin KN Chaurasiya",
+     "title": "attached document: frontend libraries"
+    },
+    {
+     "id": "7351794908258582528",
+     "au": "Achyuth Munagala",
+     "title": "attached document: 500+ React Q&A"
+    },
+    {
+     "id": "7349803197823131649",
+     "au": "Om Sai Ram Kurra",
+     "title": "attached document: JavaScript notes"
+    },
+    {
+     "id": "7350713226533187584",
+     "au": "Kenil Gondaliya",
+     "title": "attached document: HTML & CSS guide"
+    },
+    {
+     "id": "7348606771634073600",
+     "au": "Parthib M.",
+     "title": "attached document: React performance optimization"
+    },
+    {
+     "id": "7350516931637956609",
+     "au": "Sraya Sreedharan",
+     "title": "attached document: useMemo and useCallback"
+    },
+    {
+     "id": "7348976824447647744",
+     "au": "Amira Zidi",
+     "title": "attached document: 200 JavaScript Q&A"
+    },
+    {
+     "id": "7350114838968221696",
+     "au": "Lokesh Kumar",
+     "title": "attached document: Advanced JS essentials"
+    },
+    {
+     "id": "7349965796359471105",
+     "au": "Muhammad Nouman",
+     "title": "attached document: Node.js tips"
+    },
+    {
+     "id": "7348288363583455232",
+     "au": "Deepak Kumar",
+     "title": "attached document: character frequency methods"
+    },
+    {
+     "id": "7350104647744847872",
+     "au": "Qurban Hanif",
+     "title": "attached document: Advanced JavaScript concepts"
+    },
+    {
+     "id": "7349603236552564736",
+     "au": "Muaz Ahmed",
+     "title": "attached document: React hooks guide"
+    },
+    {
+     "id": "7347993289993654273",
+     "au": "Saurabh Rai",
+     "title": "attached document: SQL"
+    },
+    {
+     "id": "7349076815291785216",
+     "au": "Ankit Sharma",
+     "title": "attached document: Accessibility carousel"
+    },
+    {
+     "id": "7347591323547320322",
+     "au": "Neo Kim",
+     "title": "attached image: How JWT works"
+    },
+    {
+     "id": "7349592624476917760",
+     "au": "Ezedin Y.",
+     "title": "attached document: JS built-in methods"
+    },
+    {
+     "id": "7347874445635592193",
+     "au": "Rahul Kumar Sahu",
+     "title": "attached document: JS interview"
+    },
+    {
+     "id": "7347829517404577793",
+     "au": "Ajay Saini",
+     "title": "attached document: 20 .NET coding problems"
+    },
+    {
+     "id": "7347104439930863616",
+     "au": "",
+     "title": "attached document: 1000+ JS Q&A"
+    },
+    {
+     "id": "7349380701655359488",
+     "au": "ASHFAQ AHMED",
+     "title": "attached document: JavaScript"
+    },
+    {
+     "id": "7346794910672424960",
+     "au": "Dharmendra kumar",
+     "title": "attached document: Frontend interview prep guide"
+    },
+    {
+     "id": "7348559875829825536",
+     "au": "Sonu Kumar",
+     "title": "attached document: React Interview Questions & Answers PDF"
+    },
+    {
+     "id": "7346547776626806784",
+     "au": "Arjun N Ummavagol",
+     "title": "attached document: CSS cheat sheet"
+    },
+    {
+     "id": "7346870454814429187",
+     "au": "",
+     "title": "attached document: JavaScript vs TypeScript"
+    },
+    {
+     "id": "7348740607831392256",
+     "au": "Rahul S",
+     "title": "attached document: JavaScript questions"
+    },
+    {
+     "id": "7347878427145691136",
+     "au": "Petar Ivanov",
+     "title": "external article: Scope, Hoisting and Closures"
+    },
+    {
+     "id": "7348363320929804290",
+     "au": "Vishal Brijesh Kanojiya",
+     "title": "attached document: Ultimate Interview Guide"
+    },
+    {
+     "id": "7348864234929217536",
+     "au": "Ezedin Y.",
+     "title": "attached document: Essential JavaScript functions"
+    },
+    {
+     "id": "7346222320304238593",
+     "au": "Neeraj Kumar",
+     "title": "attached document: Shallow and deep copy in JS"
+    },
+    {
+     "id": "7348692620665126912",
+     "au": "Shivam Dhyani",
+     "title": "attached document: React Top 50 questions with answers"
+    },
+    {
+     "id": "7347307048914534402",
+     "au": "Rahul S",
+     "title": "attached document: Memory leaks in JavaScript"
+    },
+    {
+     "id": "7348195380053864448",
+     "au": "Junaid Arshad",
+     "title": "attached document: Destructuring in JavaScript"
+    },
+    {
+     "id": "7346485376049389568",
+     "au": "Dharmendra kumar",
+     "title": "attached document: 31 JavaScript array methods"
+    },
+    {
+     "id": "7347823331607261184",
+     "au": "Shivam Dhyani",
+     "title": "attached document: JavaScript methods cheat sheet"
+    },
+    {
+     "id": "7346256745494724609",
+     "au": "Mubeen Ali Mughal",
+     "title": "attached document: React 19 hooks guide"
+    },
+    {
+     "id": "7345639990468452352",
+     "au": "Neha Malhotra",
+     "title": "attached document: 90 toughest interview questions (HR)"
+    },
+    {
+     "id": "7346392919299235840",
+     "au": "",
+     "title": "attached document: JavaScript cheat sheet"
+    },
+    {
+     "id": "7347206361488740353",
+     "au": "ASHFAQ AHMED",
+     "title": "attached document: JavaScript"
+    },
+    {
+     "id": "7347071823294922752",
+     "au": "Ankur Singh",
+     "title": "attached document: React.js cheat sheet"
+    },
+    {
+     "id": "7343787514312241152",
+     "au": "Milo Z.",
+     "title": "attached document: Frontend interview map"
+    },
+    {
+     "id": "7286964521141768192",
+     "au": "Akash Kumar",
+     "title": "links: DSA video resources"
+    },
+    {
+     "id": "7286226521952829440",
+     "au": "Anubhav Gupta",
+     "title": "attached document: Vite.js cheat sheet"
+    },
+    {
+     "id": "7284811859373805569",
+     "au": "Raj Gujar",
+     "title": "attached document: React 19 features"
+    },
+    {
+     "id": "7283869518945230849",
+     "au": "Abhishek Anand",
+     "title": "attached document: React 19 new features"
+    },
+    {
+     "id": "7284071080938369024",
+     "au": "dadhi shankar sharma",
+     "title": "attached document: 400+ JS interview questions"
+    },
+    {
+     "id": "7283680483299803136",
+     "au": "Parthib M.",
+     "title": "attached document: Redux guide"
+    },
+    {
+     "id": "7283315023081361408",
+     "au": "Anubhav Gupta",
+     "title": "attached document: React 19 hooks"
+    },
+    {
+     "id": "7283377074243850242",
+     "au": "Muhammad Nouman",
+     "title": "attached document: Advanced JavaScript concepts"
+    },
+    {
+     "id": "7282780529106591744",
+     "au": "",
+     "title": "attached document: Closures"
+    },
+    {
+     "id": "7283009011182936066",
+     "au": "Sandeep Jaiswal",
+     "title": "attached document: ReactJS notes"
+    },
+    {
+     "id": "7282409271047122944",
+     "au": "",
+     "title": "attached document: async/await"
+    },
+    {
+     "id": "7280191029868163072",
+     "au": "",
+     "title": "attached document: 50 React projects"
+    },
+    {
+     "id": "7281223587225604096",
+     "au": "Abd ur rehman Nawaz",
+     "title": "attached document: Advanced JS concepts"
+    },
+    {
+     "id": "7279481421855870976",
+     "au": "Muhammad Nouman",
+     "title": "attached document: JWT in React"
+    },
+    {
+     "id": "7280853048044744704",
+     "au": "",
+     "title": "attached document: React interview guide"
+    },
+    {
+     "id": "7280783395993927680",
+     "au": "Sonu Kumar",
+     "title": "attached document: Namaste React notes"
+    },
+    {
+     "id": "7279892820079894529",
+     "au": "Aashish Kulkarni",
+     "title": "attached document: Async/Await"
+    },
+    {
+     "id": "7279471520878342145",
+     "au": "Anubhav Gupta",
+     "title": "attached document: Modern JavaScript"
+    },
+    {
+     "id": "7278718465136300033",
+     "au": "Kashif Shoukat",
+     "title": "attached document: React performance optimization"
+    },
+    {
+     "id": "7278324481780047872",
+     "au": "Shivam Yadav",
+     "title": "attached document: Java backend interview questions"
+    },
+    {
+     "id": "7278983071536730112",
+     "au": "Saurav Singh",
+     "title": "attached document: JS array methods"
+    },
+    {
+     "id": "7278484290122784768",
+     "au": "",
+     "title": "attached document: async-await"
+    },
+    {
+     "id": "7274535514999803904",
+     "au": "",
+     "title": "attached document: 174 JS & React Q&A (Saikrishna Nangunuri)"
+    },
+    {
+     "id": "7274638197853163520",
+     "au": "ASHFAQ AHMED",
+     "title": "attached document: Git"
+    },
+    {
+     "id": "7272640599197933568",
+     "au": "",
+     "title": "attached document: Promise API methods"
+    },
+    {
+     "id": "7273591874152493056",
+     "au": "",
+     "title": "attached document: Debouncing and throttling"
+    },
+    {
+     "id": "7270876812245684224",
+     "au": "Ahmed Ezzat",
+     "title": "attached document: JS object methods"
+    },
+    {
+     "id": "7272377043101614081",
+     "au": "Muhammad Nouman",
+     "title": "attached document: TypeScript guide"
+    },
+    {
+     "id": "7271729689071599616",
+     "au": "MOHAMMAD FAISAL",
+     "title": "attached document: TypeScript guide"
+    },
+    {
+     "id": "7271372354063093760",
+     "au": "Azimullah Khan",
+     "title": "attached document: Top 100 React Q&A"
+    },
+    {
+     "id": "7269289207481704450",
+     "au": "Jayesh Patil",
+     "title": "attached document: JavaScript interview questions"
+    },
+    {
+     "id": "7270097255250964480",
+     "au": "",
+     "title": "attached document: 13 UI developer questions"
+    },
+    {
+     "id": "7266642524335710208",
+     "au": "Halim Shams",
+     "title": "attached document: 15 React hooks explained"
+    },
+    {
+     "id": "7266442940653150208",
+     "au": "Devkant Bhagat",
+     "title": "attached document: TypeScript guide"
+    },
+    {
+     "id": "7266303275803521025",
+     "au": "ASHFAQ AHMED",
+     "title": "attached document: JavaScript"
+    },
+    {
+     "id": "7264809205344210944",
+     "au": "Numan Adnan",
+     "title": "attached document: API terminology handbook"
+    },
+    {
+     "id": "7264132743205138432",
+     "au": "Ujjal Ray",
+     "title": "attached document: SQL interview cheat sheet"
+    },
+    {
+     "id": "7261263233464872960",
+     "au": "Ajay Yadav",
+     "title": "attached document: Top 100 advanced SQL Q&A"
+    },
+    {
+     "id": "7260841138687782912",
+     "au": "Ayush Raj",
+     "title": "attached document: SQL commands"
+    },
+    {
+     "id": "7254344483171938304",
+     "au": "ASHFAQ AHMED",
+     "title": "attached document: API"
+    },
+    {
+     "id": "7243614464179068929",
+     "au": "Sampeta Deepika",
+     "title": "attached document: SQL basics to advanced"
+    },
+    {
+     "id": "7229366192606498818",
+     "au": "Kashan Iqbal",
+     "title": "attached document: React best practices"
+    },
+    {
+     "id": "7228850199299825665",
+     "au": "Ujjal Ray",
+     "title": "attached document: React interview cheat sheet"
+    },
+    {
+     "id": "7229403747104251904",
+     "au": "Ujjal Ray",
+     "title": "attached document: JavaScript ES6 interview cheat sheet"
+    },
+    {
+     "id": "7228947236682969088",
+     "au": "Abdualaziz Alhimeari",
+     "title": "attached document: 100 JavaScript concepts"
+    },
+    {
+     "id": "7213528216156729347",
+     "au": "Abdul Rehman",
+     "title": "attached document: JavaScript concepts"
+    },
+    {
+     "id": "7213359098560442370",
+     "au": "Sonu Madheshiya",
+     "title": "attached document: ES6 features"
+    },
+    {
+     "id": "7211797935720652802",
+     "au": "Ahmed Mohamed",
+     "title": "attached document: 100 JavaScript Q&A"
+    },
+    {
+     "id": "7209463497468837889",
+     "au": "Ayush Dubey",
+     "title": "attached document: Top 70 React Q&A"
+    },
+    {
+     "id": "7209091244617039872",
+     "au": "Ayush Dubey",
+     "title": "attached document: Front-end interview questions"
+    },
+    {
+     "id": "7209039994198405120",
+     "au": "Ankur Singh",
+     "title": "attached document: JS interview Q&A"
+    },
+    {
+     "id": "7204500628591538178",
+     "au": "Imtiyaz Nandasaniya",
+     "title": "attached document: JavaScript coding questions"
+    },
+    {
+     "id": "7202504070585090049",
+     "au": "Qurban Hanif",
+     "title": "attached document: Software engineering interview questions"
+    },
+    {
+     "id": "7201674910685962240",
+     "au": "Manav Saliya",
+     "title": "attached document: React hooks cheat sheet"
+    },
+    {
+     "id": "7185325210542247936",
+     "au": "MBAH NAOUSSI JORDAN WILFRY",
+     "title": "attached document: Promise API methods"
+    },
+    {
+     "id": "7185203319965978624",
+     "au": "MBAH NAOUSSI JORDAN WILFRY",
+     "title": "attached document: Front-end Q&A"
+    },
+    {
+     "id": "7184523128142729216",
+     "au": "MBAH NAOUSSI JORDAN WILFRY",
+     "title": "attached document: JavaScript interview questions"
+    },
+    {
+     "id": "7106451721354149888",
+     "au": "Zaheer Rahman",
+     "title": "attached document: ES5 vs ES6"
+    },
+    {
+     "id": "7109397636771659776",
+     "au": "Zaheer Rahman",
+     "title": "attached document: Array methods"
+    },
+    {
+     "id": "7183062702884294656",
+     "au": "Zaheer Rahman",
+     "title": "attached document: JavaScript arrays"
+    },
+    {
+     "id": "7183062959445671938",
+     "au": "Ankur Singh",
+     "title": "attached document: JS one-liners"
+    },
+    {
+     "id": "7183111583517089792",
+     "au": "Suraj Gorai",
+     "title": "attached document: Improve your React code"
+    },
+    {
+     "id": "7182722668461207552",
+     "au": "Suraj Gorai",
+     "title": "attached document: React questions"
+    },
+    {
+     "id": "7180540790417289216",
+     "au": "Anurag Singh",
+     "title": "attached document: 50 React questions"
+    },
+    {
+     "id": "7180540691695984640",
+     "au": "Safdar Ali",
+     "title": "attached document: React UI libraries"
+    },
+    {
+     "id": "7171712768058740736",
+     "au": "Waleed Mousa",
+     "title": "attached document: JS data structures cheat sheet"
+    },
+    {
+     "id": "7168912647063625728",
+     "au": "KAIF KHAN",
+     "title": "attached document: Top 50 React questions"
+    },
+    {
+     "id": "7151031076012888064",
+     "au": "Veerendra P.",
+     "title": "attached document: SQL notes"
+    },
+    {
+     "id": "7142736350205681664",
+     "au": "Veerendra P.",
+     "title": "attached document: SQL interview questions"
+    },
+    {
+     "id": "7141998982456569857",
+     "au": "Deshan Mendis",
+     "title": "attached document: Console methods"
+    },
+    {
+     "id": "7141482952156225536",
+     "au": "Tamal Barman",
+     "title": "attached document: React handwritten notes"
+    },
+    {
+     "id": "7140722319139778560",
+     "au": "Rahul Beniwal",
+     "title": "attached document: JS events cheat sheet"
+    },
+    {
+     "id": "7117311277223317504",
+     "au": "Ram Maheshwari",
+     "title": "attached document: useEffect guide"
+    },
+    {
+     "id": "7138189282158055424",
+     "au": "Waleed Mousa",
+     "title": "attached document: JS built-in methods"
+    },
+    {
+     "id": "7135829055513260033",
+     "au": "Venkatesh Athyam",
+     "title": "attached document: 100 React Q&A"
+    },
+    {
+     "id": "7134020896796655616",
+     "au": "Venkatesh Athyam",
+     "title": "attached document: 100 JS Q&A"
+    },
+    {
+     "id": "7134207948209225728",
+     "au": "",
+     "title": "attached document: JavaScript generators"
+    },
+    {
+     "id": "7133187274204205057",
+     "au": "Utsav Desai",
+     "title": "attached document: Destructuring guide"
+    },
+    {
+     "id": "7132020583650775040",
+     "au": "Allauddin Khan Pathan",
+     "title": "attached document: SQL basic to advanced"
+    },
+    {
+     "id": "7132155486317019137",
+     "au": "Abdul Ahad Abeer",
+     "title": "attached document: call, apply, bind"
+    },
+    {
+     "id": "7132155521888899072",
+     "au": "Abdul Rehman",
+     "title": "attached document: Top 50 coding questions"
+    },
+    {
+     "id": "7132155637030916096",
+     "au": "Bala Murugan",
+     "title": "attached document: JavaScript promises"
+    },
+    {
+     "id": "7132156061603545090",
+     "au": "Abdul Rehman",
+     "title": "attached document: SQL Q&A"
+    },
+    {
+     "id": "7132389080100704256",
+     "au": "Hussaini N.",
+     "title": "attached document: JavaScript notes and hacks"
+    },
+    {
+     "id": "7132389153316499457",
+     "au": "Chiamaka Umeh",
+     "title": "attached document: Rest and spread"
+    },
+    {
+     "id": "7132390330544357377",
+     "au": "Thisara Edirisingha",
+     "title": "attached document: JavaScript fundamentals"
+    },
+    {
+     "id": "7132390732031545344",
+     "au": "Ashwath S",
+     "title": "attached document: JavaScript FAQs"
+    },
+    {
+     "id": "7132390832153776129",
+     "au": "Waleed Mousa",
+     "title": "attached document: Jest operations"
+    },
+    {
+     "id": "7132391820080123904",
+     "au": "Sihab Uddin",
+     "title": "attached document: DOM manipulation"
+    },
+    {
+     "id": "7132752912304250881",
+     "au": "Baranidharan B",
+     "title": "attached document: Array manipulation"
+    },
+    {
+     "id": "7132836464161128448",
+     "au": "Venkatesh Athyam",
+     "title": "attached document: 100 React Q&A"
+    },
+    {
+     "id": "7132923386309054464",
+     "au": "Rahul Beniwal",
+     "title": "attached document: Context API"
+    }
+   ]
+  }
+ ]
+}
