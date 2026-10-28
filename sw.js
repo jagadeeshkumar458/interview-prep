@@ -1,5 +1,5 @@
 // Offline cache: app shell + data. Serve from cache instantly, refresh in the background.
-const CACHE = "ipd-va40107f9fa";
+const CACHE = "ipd-v02fd507a64";
 const CORE = ["./", "index.html", "standalone.js", "manifest.webmanifest", "icon-192.png", "icon-512.png",
   "questions.json", "answers.json", "sources.json", "playground.json", "agent-spec.json"];
 self.addEventListener("install", e => { e.waitUntil(caches.open(CACHE).then(c => c.addAll(CORE))); self.skipWaiting(); });
