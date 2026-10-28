@@ -478,8 +478,8 @@ body{margin:0}
     <nav class="crumbs" id="crumbs" aria-label="Breadcrumb"></nav>
     <span class="spacer"></span>
     <span class="sync" id="sync"></span>
-    <button class="btn hb" type="button" data-go-sources aria-label="Source links">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4 4 0 0 0 5.7 0l3-3a4 4 0 0 0-5.7-5.7l-1 1"/><path d="M14 10a4 4 0 0 0-5.7 0l-3 3a4 4 0 0 0 5.7 5.7l1-1"/></svg><span class="hl">Sources</span></button>
+    <button class="btn hb" type="button" id="linksBtn" aria-haspopup="dialog" aria-label="All source links" title="All source links">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4 4 0 0 0 5.7 0l3-3a4 4 0 0 0-5.7-5.7l-1 1"/><path d="M14 10a4 4 0 0 0-5.7 0l-3 3a4 4 0 0 0 5.7 5.7l1-1"/></svg><span class="hl">Source links</span></button>
     <button class="btn hb" id="pgBtn" type="button" aria-label="Playground">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 7l-5 5 5 5M16 7l5 5-5 5M13.5 4l-3 16"/></svg><span class="hl">Playground</span></button>
     <button class="btn hb" id="ivBtn" type="button" aria-label="Mock interview">
@@ -1247,6 +1247,7 @@ document.addEventListener("click", e=>{
   const el = e.target.closest("button,a"); if(!el) return;
   if(el.id==="homeBtn") return go({v:"home"});
   if(el.id==="addBtn") return openAdd(route.t||"react", route.v==="concept"?route.c:null);
+  if(el.id==="linksBtn") return openLinks();
   if(el.dataset.goTech) return go({v:"tech", t:el.dataset.goTech});
   if(el.dataset.goConcept){ return go({v:"concept", t:route.t, c:el.dataset.goConcept}); }
   if(el.dataset.lv){ ui.lv = el.dataset.lv; return render(); }
@@ -1332,6 +1333,20 @@ function openAdd(t, c, prefill){
 function closeModal(){ $("#modalRoot").innerHTML=""; }
 document.addEventListener("keydown", e=>{ if(e.key==="Escape" && $("#modalRoot").innerHTML) closeModal(); });
 
+function openLinks(){
+  const links = allSourceLinks();
+  const count = k => allQs().filter(q=>(q.s||[]).includes(k)).length;
+  $("#modalRoot").innerHTML = `<div class="scrim" data-scrim><div class="modal" role="dialog" aria-modal="true" aria-labelledby="lTitle" style="max-width:720px">
+    <h2 id="lTitle" style="margin:0">All source links (${links.length})</h2>
+    <p class="hint" style="margin:0">Every link shared so far for fetching questions, oldest first. New links are checked against this list before they're fetched.</p>
+    <ol style="margin:0;padding-left:22px;display:grid;gap:8px;max-height:60vh;overflow:auto">${links.map(o=>`<li style="overflow-wrap:anywhere"><a href="${esc(o.url)}" target="_blank" rel="noopener" style="color:var(--accent)">${esc(o.url)}</a><br><span class="hint">${esc(o.src.name)} · added ${esc(o.src.added||"")} · ${count(o.src.key)} questions</span></li>`).join("")}</ol>
+    <div class="mfoot"><button class="btn" type="button" id="copyLinks">Copy all links</button><button class="btn" type="button" id="toCoverage">Coverage details</button><button class="btn primary" type="button" data-close>Close</button></div>
+  </div></div>`;
+  $("#modalRoot [data-scrim]").addEventListener("click", e=>{ if(e.target.matches("[data-scrim],[data-close]")) closeModal(); });
+  $("#toCoverage").addEventListener("click", e=>{ e.stopPropagation(); closeModal(); go({v:"sources"}); window.scrollTo({top:0}); });
+  $("#copyLinks").addEventListener("click", async ()=>{ try{ await navigator.clipboard.writeText(links.map(o=>o.url).join("\n")); toast("Links copied"); }catch(e){ toast("Couldn't copy. Select the links instead."); } });
+  $("#lTitle").closest(".modal").querySelector("[data-close]").focus();
+}
 function confirmDelete(id){
   const q = CUSTOM.find(x=>x.i===id); if(!q) return;
   $("#modalRoot").innerHTML = `<div class="scrim" data-scrim><div class="modal" role="dialog" aria-modal="true" aria-labelledby="dTitle">
